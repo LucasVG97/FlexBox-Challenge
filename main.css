@@ -28,6 +28,7 @@ header{
   object-fit: cover;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
 }
 
 
@@ -39,18 +40,14 @@ header{
   cursor: pointer;
 }
 
+
 .divider-1,
-.divider-2,
-.divider-3,
-.divider-4{
+.divider-2{
   height: 1px;
   background: black;
   
 }
 
-.divider-1{
-  margin-top: 4.3rem;
-}
 
 nav ul{
   display: flex;
@@ -58,6 +55,8 @@ nav ul{
   justify-content: space-evenly;
   list-style: none;
   padding: 0.3rem 0;
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
 }
 
 nav ul a {
@@ -77,6 +76,7 @@ nav ul a:hover{
   flex-direction: row;
   align-items: center;
   overflow: hidden;
+  border-bottom: 1px solid black;
 }
 
 .section-1 img{
@@ -92,7 +92,7 @@ nav ul a:hover{
 .section-1 img:hover{
   transform: scale(1.05);
   transition: 0.5s ease all;
-  filter: brightness(70%);
+  filter: brightness(130%);
   cursor: pointer;
 }
 
@@ -127,6 +127,7 @@ nav ul a:hover{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  border-bottom: 1px black solid;
 }
 
 .container-articles{
@@ -150,12 +151,15 @@ aside {
   border-left: solid 1px black;
 }
 
+
 aside li{
   margin-top: 1rem;
   list-style: circle;
+  
+
 }
 
-aside li:hover{
+aside a:hover{
   color: rgb(255, 223, 136);
 }
 
@@ -238,7 +242,7 @@ footer .title{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    
+    padding-right: 1rem;
   }
 
   header .title {
@@ -259,11 +263,10 @@ footer .title{
     justify-content: space-evenly;
     align-items: center;
     list-style: none;
+    border-top: 0;
+    border-bottom: 0;
+    
 
-  }
-
-  .divider-1,.divider-2{
-    height: 0;
   }
 
   .section-1{
@@ -286,12 +289,13 @@ footer .title{
   .section-2 .container-articles {
     padding-right: 5rem;
     width: 100%;
-    
+  
   }
 
   article{
     padding-top: 2rem;
     padding-bottom: 0;
+    
   }
 
   aside{
@@ -302,8 +306,10 @@ footer .title{
     width: 100%;
     padding: 2rem 0;
     border-left: 0;
+   
 
   }
+
 
   footer{
     height: 6rem;
@@ -324,9 +330,6 @@ footer .title{
   }
 }
   @media screen and (max-width:500px) {
-    header{
-      padding-right: 1rem;
-    }
     .section-1{
       height: 50rem;
 
@@ -365,6 +368,6 @@ footer .title{
       height: 60rem;
     }
     .section-2{
-      height: 75rem;
+      height: 78rem;
     }
   }
