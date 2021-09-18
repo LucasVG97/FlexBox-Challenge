@@ -69,7 +69,7 @@ nav ul a:hover{
 }
 
 
-.section-1{
+.featured-movie{
   height: 50rem;
   width: 100%;
   display: flex;
@@ -79,7 +79,7 @@ nav ul a:hover{
   border-bottom: 1px solid black;
 }
 
-.section-1 img{
+.featured-movie img{
   width: 70%;
   height: 70%;
   margin-left: 5rem;
@@ -89,14 +89,14 @@ nav ul a:hover{
   
 }
 
-.section-1 img:hover{
+.featured-movie img:hover{
   transform: scale(1.05);
   transition: 0.5s ease all;
   filter: brightness(130%);
   cursor: pointer;
 }
 
-.section-1 .container{
+.featured-movie .container{
   padding-right: 5rem;
 }
 
@@ -121,7 +121,7 @@ nav ul a:hover{
 }
 
 
-.section-2{
+.recomendations{
   height: 25rem;
   width: 100%;
   display: flex;
@@ -202,7 +202,7 @@ footer .title{
 }
 
 @media screen and (max-width:1600px){
-  .section-1 img{
+  .featured-movie img{
     width: 50%;
     height: 50%;
     margin-right: 5rem;
@@ -210,7 +210,7 @@ footer .title{
 }
 
 @media screen and (max-width:1000px){
-  .section-1{
+  .featured-movie{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -218,16 +218,16 @@ footer .title{
     height: 55rem;
   }
 
-  .section-1 img{
+  .featured-movie img{
     width: 60%;
     height: 40%;
   }
   
-  .section-1 .container{
+  .featured-movie .container{
     padding: 2rem 4rem 0 5rem
   }
 
-  .section-2{
+  .recomendations{
     height: 30rem;
   }
 
@@ -269,16 +269,16 @@ footer .title{
 
   }
 
-  .section-1{
+  .featured-movie{
     height: 50rem;
   }
 
-  .section-1 img{
+  .featured-movie img{
       width: 70%;
       height: 30%;
     }
 
-  .section-2 {
+  .recomendations {
     height: 60rem;
     display: flex;
     flex-direction: column;
@@ -286,7 +286,7 @@ footer .title{
     justify-content: center;
   }
 
-  .section-2 .container-articles {
+  .recomendations .container-articles {
     padding-right: 5rem;
     width: 100%;
   
@@ -330,20 +330,20 @@ footer .title{
   }
 }
   @media screen and (max-width:500px) {
-    .section-1{
+    .featured-movie{
       height: 50rem;
 
     }
-    .section-1 img{
+    .featured-movie img{
       width: 70%;
       height: 20%;
     }
 
-    .section-2{
+    .recomendations{
       height: 65rem;
     }
 
-    .section-2 .container-articles{
+    .recomendations .container-articles{
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -364,10 +364,10 @@ footer .title{
   }
 
   @media screen and (max-width:425px){
-    .section-1{
+    .featured-movie{
       height: 60rem;
     }
-    .section-2{
+    .recomendations{
       height: 78rem;
     }
   }
