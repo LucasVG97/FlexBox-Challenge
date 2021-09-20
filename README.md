@@ -2,7 +2,7 @@
 
 ------
 
-Desenvolvimento de web page para um desafio de playout utilizando apenas flexbox .
+Desenvolvimento de web page para um desafio de playout utilizando apenas flexbox.
 
 
 
