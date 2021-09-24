@@ -5,19 +5,21 @@
   border: 0;
   text-decoration: none;
   box-sizing: border-box;
+
 }
 
 :root{
   font-family: Poppins;
-
 }
 
 a {
   color: black
+
 }
 
 main{
   background: url(assets/bg1.jpg);
+
 }
 
 header{
@@ -30,6 +32,7 @@ header{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
 }
 
 
@@ -39,6 +42,7 @@ header{
   font-weight: 700;
   width: 20rem;
   cursor: pointer;
+
 }
 
 
@@ -46,7 +50,6 @@ header{
 .divider-2{
   height: 1px;
   background: black;
-  
 }
 
 
@@ -58,15 +61,18 @@ nav ul{
   padding: 0.3rem 0;
   border-top: 1px solid black;
   border-bottom: 1px solid black;
+
 }
 
 nav ul a {
   color: aliceblue;
   font: 400 1rem;
+
 }
 
 nav ul a:hover{
   color: rgb(255, 223, 136);
+
 }
 
 
@@ -78,6 +84,7 @@ nav ul a:hover{
   align-items: center;
   overflow: hidden;
   border-bottom: 1px solid black;
+
 }
 
 .featured-movie img{
@@ -87,7 +94,6 @@ nav ul a:hover{
   border-radius: 0.3rem;
   margin-right: 10rem;
   box-shadow: 3px 3px 2px 1px rgba(0, 0, 0, 0.2);
-  
 }
 
 .featured-movie img:hover{
@@ -95,10 +101,12 @@ nav ul a:hover{
   transition: 0.5s ease all;
   filter: brightness(130%);
   cursor: pointer;
+
 }
 
 .featured-movie .container{
   padding-right: 5rem;
+
 }
 
 .botao {
@@ -111,14 +119,17 @@ nav ul a:hover{
   font: 400 14px;
   cursor: pointer;
   transition: 0.3s ease all;
+
 }
 
 .botao:hover {
   background-color: white;
   color: black;
+
 }
 .botao i {
   margin-right: 7px;
+
 }
 
 
@@ -129,6 +140,7 @@ nav ul a:hover{
   flex-direction: row;
   justify-content: space-between;
   border-bottom: 1px black solid;
+
 }
 
 .container-articles{
@@ -136,10 +148,12 @@ nav ul a:hover{
   flex-direction: column;
   justify-content: space-evenly;
   width: 60%;
+
 }
 
 article{
   margin-left: 5rem;
+
 }
 
 aside {
@@ -150,18 +164,18 @@ aside {
   align-items: center;
   justify-content: center;
   border-left: solid 1px black;
+
 }
 
 
 aside li{
   margin-top: 1rem;
   list-style: circle;
-  
-
 }
 
 aside a:hover{
   color: rgb(255, 223, 136);
+
 }
 
 footer{
@@ -174,24 +188,26 @@ footer{
   justify-content: space-between;
   background-size: contain;
 
-
 }
 
 .footer{
   width: 60%;
   margin-left: 5rem;
   color: rgb(255, 223, 136);
+
 }
 
 footer .title{
   margin-top: 0;
   margin-left: 0;
   width: 15rem;
+
 }
 .contact{
   font-size: 35px;
   width: fit-content;
   margin-right: 5rem;
+
 }
 
 .contact i{
@@ -200,6 +216,7 @@ footer .title{
 }
 .contact i:hover{
   transform: translateY(-1rem);
+
 }
 
 @media screen and (max-width:1600px){
@@ -207,6 +224,7 @@ footer .title{
     width: 50%;
     height: 50%;
     margin-right: 5rem;
+
   }
 }
 
@@ -217,19 +235,23 @@ footer .title{
     justify-content: center;
     align-items: center;
     height: 55rem;
+
   }
 
   .featured-movie img{
     width: 60%;
     height: 40%;
+
   }
   
   .featured-movie .container{
     padding: 2rem 4rem 0 5rem
+
   }
 
   .recomendations{
     height: 30rem;
+
   }
 
 
@@ -244,6 +266,7 @@ footer .title{
     flex-direction: row;
     justify-content: space-between;
     padding-right: 1rem;
+
   }
 
   header .title {
@@ -252,10 +275,12 @@ footer .title{
     color: aliceblue;
     height: 0.5rem;
     font-size: 25px;
+
   }
 
   nav{
     margin-top: 1rem;
+
   }
 
   nav ul{
@@ -266,17 +291,17 @@ footer .title{
     list-style: none;
     border-top: 0;
     border-bottom: 0;
-    
-
   }
 
   .featured-movie{
     height: 50rem;
+
   }
 
   .featured-movie img{
       width: 70%;
       height: 30%;
+
     }
 
   .recomendations {
@@ -285,18 +310,17 @@ footer .title{
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
   }
 
   .recomendations .container-articles {
     padding-right: 5rem;
     width: 100%;
-  
   }
 
   article{
     padding-top: 2rem;
     padding-bottom: 0;
-    
   }
 
   aside{
@@ -307,7 +331,6 @@ footer .title{
     width: 100%;
     padding: 2rem 0;
     border-left: 0;
-   
 
   }
 
@@ -315,33 +338,38 @@ footer .title{
   footer{
     height: 6rem;
     font-size: 12px;
+
   }
 
   footer.title {
     font-size: 18px;
+
   }
   footer .contact{
     display: flex;
     font-size: 20px;
     width: fit-content;
+
   }
 
   footer .contact i{
     margin-right: 1rem;
+
   }
 }
   @media screen and (max-width:500px) {
     .featured-movie{
       height: 50rem;
-
     }
     .featured-movie img{
       width: 70%;
       height: 20%;
+
     }
 
     .recomendations{
       height: 65rem;
+
     }
 
     .recomendations .container-articles{
@@ -350,25 +378,30 @@ footer .title{
       align-items: center;
       justify-content: center;
       padding-right: 5rem;
+
     }
     footer {
       height: 6rem;
       display: flex;
       align-items: center;
       justify-content: center;
+
     }
 
     footer .contact i{
       margin-right: 0;
       margin-left: 0.5rem;
+
     }
   }
 
   @media screen and (max-width:425px){
     .featured-movie{
       height: 60rem;
+
     }
     .recomendations{
       height: 78rem;
+      
     }
   }
